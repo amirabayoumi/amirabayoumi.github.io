@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@200..700&display=swap');
+
+
+
+body {
+  background: #1b1a1f;
+
+}
+
+.th1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 700px;
+  background: #f6fcff;
+  box-shadow: 0px 4px 4px #8c7cc040;
+  border-radius: 0px 0px 40px 40px;
+  align-content: space-between;
+  justify-content: center;
+}
+
+#thanks {
+  grid-column: span 3;
+  font-family: 'Yaldevi';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 25px;
+  color: #395c6c;
+  text-align: center;
+}
+
+.line {
+  grid-column: span 3;
+  height: 1px;
+  border-top: 1px solid #a4a1a1;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: -10px;
+}
+
+.navbar {
+  grid-column: span 3;
+  height: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-content: space-between;
+  justify-content: center;
+  padding: 1%;
+
+}
+
+.nav {
+  width: 150px;
+  justify-self: center;
+  height: 40px;
+  background: #aea2b079;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease;
+}
+
+.nav:hover {
+  transform: scale(1.1);
+}
+
+.navT {
+  text-align: center;
+  font-family: 'Yaldevi';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 20px;
+  line-height: 30px;
+  color: #261621;
+}
+
+.profile {
+  grid-row: span 2;
+  width: 280px;
+  height: 363px;
+  box-shadow: inset 0px 4px 4px #694d8893;
+  border-radius: 150px 150px 0px 0px;
+  margin: 2%;
+  justify-self: center;
+
+}
+
+.nameAndJob {
+  grid-column: span 2;
+  text-align: center;
+
+}
+
+.name {
+  font-family: 'Yaldevi';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 60px;
+  color: #4e5e78;
+}
+
+.job {
+  font-family: 'Yaldevi';
+  font-style: normal;
+  font-weight: 275;
+  font-size: 35px;
+  color: #4e5e78;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+#about-me {
+  height: 1200px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+#aboutMeP {
+  color: #f6fcff;
+  font-family: 'Yaldevi';
+  font-style: normal;
+  font-weight: 275;
+  font-size: larger;
+  text-align: center;
+}
+
+
+#projects {
+  width: 90%;
+  height: 600px;
+  background-color: #fffffff1;
+  border-radius: 40px;
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+
+}
+
+.cal {
+  width: 144px;
+  height: 213px;
+  border-color: #395c6c;
+  border-radius: 20px;
+  margin: 2%;
+  justify-self: center;
+  align-self: center;
+}
+
+.comingSoon {
+  grid-column: 1 / span 3;
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: x-large;
+}
+
+a {
+  text-decoration: none;
+}
+
+#footP {
+  color: #f6fcff;
+  font-size: x-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footName {
+  color: #646c70;
+}
+
+.footer-div {
+  background-color: #000000b2;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  height: 250px;
+}
+
+.fa {
+  background: #847b97;
+  color: white;
+  border-radius: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.5s ease;
+}
+
+.fa:hover {
+  background-color: rgb(157, 127, 145);
+}
+
+#up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+   background-color: #261621;
+  }
+
+  #thanks {
+    font-weight: 100;
+    font-size: 15px;
+  }
+  .th1 {
+    height: 400x;
+    background: #fdfeff;
+    box-shadow: 0px 4px 4px #8c7cc040;
+    border-radius: 0px ;
+    justify-content: center;
+  }
+  
+  .navbar {
+    grid-column: span 3;
+    height: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-between;
+    justify-content: center;
+    padding: 1%;
+  
+  }
+  
+  .nav {
+    width: 70px;
+    justify-self: center;
+    height: 25px;
+    background: #aea2b079;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+  }
+
+  .navT {
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 15px;
+    color: #261621;
+  }
+
+  .profile {
+    grid-column: span 3;
+    width: 200px; 
+    height: auto; 
+    margin-top: 15%;
+  }
+  .nameAndJob {
+    grid-column: span 3;
+    text-align: center;
+  
+  }
+
+  .name {
+    font-family: 'Yaldevi';
+    font-style: normal;
+    font-size: 35px;
+    color: #222427;
+  }
+  .job {
+    
+    font-size: 20px;
+    color: #687589;
+  }
+
+  #about-me {
+    height: auto; 
+  }
+
+  #projects {
+    grid-template-columns: 1fr; 
+    height: auto; 
+  }
+  .cal {
+    grid-column: 1 / span 3;
+    width: 90px;
+    height: 150px;
+    border-color: #395c6c;
+    border-radius: 0px;
+    margin: 0.5%;
+    justify-self: center;
+  }
+  
+  .comingSoon {
+    grid-column: 1 / span 3;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: large;
+  }
+
+
+
+  .footer-div {
+    height: 250px; 
+  }
+}
